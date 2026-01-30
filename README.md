@@ -13,7 +13,13 @@ A full-stack chatbot application with user authentication, conversation history,
 - **Real-time Chat**: Send and receive messages with AI assistant
 
 ## Images
-![Project Screenshot](img1.PNG)
+![Signup](Images/img1.PNG)
+![Login](Images/img2.PNG)
+![Chat UI](Images/img3.PNG)
+![API Docs](Images/img4.PNG)
+![Code View](Images/img5.PNG)
+![DB View](Images/img6.PNG)
+
 
 
 
@@ -330,4 +336,5 @@ Feel free to submit issues and enhancement requests!
 ## 📧 Support
 
 For questions or issues, please create an issue in the repository.
+
 
