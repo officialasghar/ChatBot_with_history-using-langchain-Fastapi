@@ -13,7 +13,8 @@ A full-stack chatbot application with user authentication, conversation history,
 - **Real-time Chat**: Send and receive messages with AI assistant
 
 ## Images
-!(img1.PNG)
+![Project Screenshot](img1.PNG)
+
 
 
 ## 📋 Tech Stack
