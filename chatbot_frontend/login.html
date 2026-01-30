@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Log In</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="center-card">
+      <div class="right card">
+        <h2 style="margin:0 0 6px">Welcome back</h2>
+        <div class="muted">Log in with your username and password.</div>
+
+        <form id="login-form" class="form" autocomplete="off">
+          <label>
+            <div class="muted">Username</div>
+            <input class="input" name="username" autocomplete="username" required>
+          </label>
+          <label>
+            <div class="muted">Password</div>
+            <input class="input" name="password" type="password" autocomplete="current-password" required>
+          </label>
+          <div style="display:flex;gap:10px;align-items:center">
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn secondary" onclick="window.location='signup.html'">Create account</button>
+          </div>
+          <div id="message" class="message"></div>
+        </form>
+
+        <div class="foot muted">Don't have an account? <a href="signup.html">Sign up</a></div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

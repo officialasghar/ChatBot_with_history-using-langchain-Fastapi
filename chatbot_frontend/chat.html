@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="center-card" style="grid-template-columns:1fr;max-width:900px">
+      <div class="left card">
+        <div class="brand">
+          <div class="logo">CB</div>
+          <div>
+            <div class="site-title">Chatbot</div>
+            <div class="lead muted">Your conversation history is loaded per user.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right card" style="min-height:62vh">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <h2 style="margin:0">Chat</h2>
+          <div>
+            <button id="logout" class="btn secondary">Logout</button>
+          </div>
+        </div>
+
+        <div class="chat-layout">
+          <div id="messages" class="messages">
+            <div id="welcome-msg" class="welcome-placeholder">
+              <div style="font-size:2rem;margin-bottom:12px">👋</div>
+              <div style="font-size:1.1rem;font-weight:600">Welcome to Chatbot</div>
+              <div class="muted" style="margin-top:8px">Start a conversation by typing your message below</div>
+            </div>
+          </div>
+          <form id="chat-form" class="chat-form">
+            <input id="query" class="chat-input" name="query" placeholder="Ask something..." required autocomplete="off">
+            <button class="btn" type="submit">Send</button>
+          </form>
+          <div id="message" class="message"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
