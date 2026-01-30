@@ -12,6 +12,10 @@ A full-stack chatbot application with user authentication, conversation history,
 - **CORS Enabled**: Secure cross-origin requests handling
 - **Real-time Chat**: Send and receive messages with AI assistant
 
+## Images
+!(img1.PNG)
+
+
 ## 📋 Tech Stack
 
 ### Backend
@@ -325,3 +329,4 @@ Feel free to submit issues and enhancement requests!
 ## 📧 Support
 
 For questions or issues, please create an issue in the repository.
+
